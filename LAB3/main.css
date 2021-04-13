@@ -33,6 +33,14 @@
             to {left: 0px;}
         }
 
+        .imgbox {
+            width: 3500px;
+            height: 350px;
+            border: solid 3px gray;
+            margin-right: 5px;
+            padding : 3px;
+        }
+
         .imgchange {
             width: 200px;
             height: 100px;
