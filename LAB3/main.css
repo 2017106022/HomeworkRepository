@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <style type = "text/css">
-        div {
+        p {
             text-align: center;
             max-width: 1020px;
             width: 1020px;
@@ -21,10 +21,6 @@
             font-family: Arial, Helvetica, sans-serif;
             margin: 5px, 3px;
             color: black;
-        }
-
-        li {
-            display: inline;
         }
 
         .title {
