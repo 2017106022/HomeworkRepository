@@ -3,7 +3,6 @@ body {
     justify-content: center;
     width: 1020px;
     margin: auto;
-    position: absolute;
 }
 
 h1 {
@@ -36,6 +35,9 @@ h1 {
     border: solid 3px gray;
     margin-right: 5px;
     padding : 3px;
+}
+
+.imgcontainer {
     display: flex;
 }
 
@@ -72,5 +74,5 @@ h1 {
     column-rule-style: solid;
     column-rule-width: 1px;
 }
-
+        
     
