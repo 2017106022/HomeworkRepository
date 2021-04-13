@@ -1,7 +1,13 @@
-body {
+.box {
     justify-content: center;
+    text-align: center;
+    max-width: 1020px;
     width: 1020px;
-}
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -510px;
+}        
 
 h1 {
     text-align: left;
@@ -12,17 +18,18 @@ h1 {
 }
 
 .title {
+    position: relative;
     animation-duration: 2s;
     animation-name: mymove;
 }
 
 @keyframes mymove {
-    from {left: 1020px;}
-    to {left: 0px;}
+    0% {left: 1020px;}
+    100% {left: 0px;}
 }
 
 .imgbox {
-    width: 3500px;
+    width: 350px;
     height: 350px;
     border: solid 3px gray;
     margin-right: 5px;
@@ -30,8 +37,8 @@ h1 {
 }
 
 .imgchange {
-    width: 200px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     transition: width 2s, height 2s;
 }
         
