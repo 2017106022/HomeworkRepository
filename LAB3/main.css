@@ -36,6 +36,7 @@ h1 {
     border: solid 3px gray;
     margin-right: 5px;
     padding : 3px;
+    display: flex;
 }
 
 .imgchange {
@@ -71,5 +72,5 @@ h1 {
     column-rule-style: solid;
     column-rule-width: 1px;
 }
-        
+
     
