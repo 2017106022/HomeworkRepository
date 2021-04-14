@@ -4,6 +4,13 @@ body {
     width: 1020px;
     margin: auto;
 }
+
+header {
+    width: 1020px;
+    text-align: left;
+    margin: auto;
+}
+
 h1 {
     text-align: left;
     font-size: 20pt;
@@ -11,10 +18,12 @@ h1 {
     margin: 5px, 3px;
     color: black;
 }
+
 .title {
     animation-duration: 2s;
     animation-name: mymove;
 }
+
 @keyframes mymove {
     0% {
         width: 100%;
