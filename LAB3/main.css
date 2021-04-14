@@ -11,11 +11,6 @@ body {
     width: 1020px;
 }
 
-body {
-    background-color: blanchedalmond;
-    color: antiquewhite;
-}
-
 h1 {
     text-align: left;
     font-size: 20pt;
@@ -48,8 +43,9 @@ a {
     width: 350px;
     height: 350px;
     border: solid 3px black;
-    margin: 5px, 3px;
+    margin-right: 5px;
     padding : 3px;
+    display: flex;
 }
 
 .imgchange {
