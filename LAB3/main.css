@@ -2,7 +2,6 @@ body {
     display: flex;
     justify-content: center;
     width: 1020px;
-    margin: auto;
 }
 
 h1 {
