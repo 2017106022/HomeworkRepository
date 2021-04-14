@@ -45,7 +45,6 @@ a {
     border: solid 3px black;
     margin-right: 5px;
     padding : 3px;
-    display: flex;
 }
 
 .imgchange {
