@@ -1,4 +1,4 @@
-.overall {
+body.overall {
     display: flex;
     justify-content: center;
     width: 1020px;
@@ -20,19 +20,21 @@ h1 {
     color: black;
 }
 
-.title {
+div.title {
+    font-size: 20px;
+    text-align: left;
     animation-duration: 2s;
     animation-name: mymove;
 }
 
 @keyframes mymove {
-    0% {
+    from {
         width: 100%;
-        margin-right: 0%;    
+        margin-left: 100%;    
     }
-    100% {
+    to {
         width: 100%;
-        margin-right: 100%; 
+        margin-left: 0%; 
     }
 }
 
