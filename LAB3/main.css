@@ -2,13 +2,11 @@ body {
     display: flex;
     justify-content: center;
     width: 1020px;
-    margin: auto;
 }
 
 header {
     width: 1020px;
     text-align: left;
-    margin: auto;
 }
 
 h1 {
@@ -38,10 +36,10 @@ h1 {
 .imgbox {
     width: 350px;
     height: 350px;
-     border: solid 3px gray;
-     margin-right: 5px;
-     padding : 3px;
-     display: flex;
+    border: solid 3px gray;
+    margin-right: 5px;
+    padding : 3px;
+    display: flex;
  }
 
  .imgchange {
