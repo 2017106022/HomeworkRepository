@@ -35,6 +35,7 @@ h1 {
     border: solid 3px gray;
     margin-right: 5px;
     padding : 3px;
+    display: flex;
 }
 
 .imgchange {
