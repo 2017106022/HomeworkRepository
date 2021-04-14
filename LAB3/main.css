@@ -18,10 +18,6 @@ h1 {
     animation-name: mymove;
 }
 
-.navbar {
-    display: inline;
-}
-
 @keyframes mymove {
     0% {
         width: 100%;
@@ -39,7 +35,6 @@ h1 {
     border: solid 3px gray;
     margin-right: 5px;
     padding : 3px;
-    display: flex;
 }
 
 .imgchange {
