@@ -4,30 +4,17 @@ body {
     width: 1020px;
     margin: auto;
 }
-
-.intro {
-    text-align: left;
-    margin: auto;
-    width: 1020px;
-}
-
 h1 {
     text-align: left;
     font-size: 20pt;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 5px, 3px;
+    color: black;
 }
-
-a {
-    text-align: left;
-    font-size: 10pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .title {
     animation-duration: 2s;
     animation-name: mymove;
 }
-
 @keyframes mymove {
     0% {
         width: 100%;
@@ -42,14 +29,15 @@ a {
 .imgbox {
     width: 350px;
     height: 350px;
-    border: solid 3px black;
-    margin-right: 5px;
-    padding : 3px;
-}
+     border: solid 3px gray;
+     margin-right: 5px;
+     padding : 3px;
+     display: flex;
+ }
 
-.imgchange {
-    width: 150px;
-    height: 150px;
+ .imgchange {
+    width: 50px;
+    height: 50px;
     transition: width 2s, height 2s;
 }
         
@@ -57,13 +45,11 @@ a {
     width: 100%;
     height: 100%;
 }
-
 .text {
     text-align: left;
     font-size: 15pt;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .button {
     background-color: white;
     padding: 20px;
@@ -80,5 +66,3 @@ a {
     column-rule-style: solid;
     column-rule-width: 1px;
 }
-        
-    
