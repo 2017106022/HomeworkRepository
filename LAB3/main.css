@@ -5,6 +5,17 @@
     margin: auto;
 }
 
+.intro {
+    text-align: left;
+    margin: auto;
+    width: 1020px;
+}
+
+body {
+    background-color: blanchedalmond;
+    color: antiquewhite;
+}
+
 h1 {
     text-align: left;
     font-size: 20pt;
