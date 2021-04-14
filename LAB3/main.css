@@ -2,6 +2,14 @@ body {
     display: flex;
     justify-content: center;
     width: 1020px;
+    margin: auto;
+    position: absolute;
+}
+
+.navigation {
+    width: 1020px;
+    margin: auto;
+    text-align: left;
 }
 
 h1 {
@@ -15,6 +23,7 @@ h1 {
 .title {
     animation-duration: 2s;
     animation-name: mymove;
+    animation-timing-function: ease;
 }
 
 @keyframes mymove {
