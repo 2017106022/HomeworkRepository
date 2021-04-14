@@ -18,6 +18,10 @@ h1 {
     animation-name: mymove;
 }
 
+.navbar {
+    display: inline;
+}
+
 @keyframes mymove {
     0% {
         width: 100%;
