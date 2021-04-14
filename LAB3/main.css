@@ -31,7 +31,6 @@ a {
 .title {
     animation-duration: 2s;
     animation-name: mymove;
-    animation-timing-function: ease;
 }
 
 @keyframes mymove {
