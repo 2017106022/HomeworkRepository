@@ -2,11 +2,14 @@ body {
     display: flex;
     justify-content: center;
     width: 1020px;
+    margin: auto;
+    float: left;
 }
 
 header {
     width: 1020px;
     text-align: left;
+    margin: auto;
 }
 
 h1 {
