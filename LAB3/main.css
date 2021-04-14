@@ -12,6 +12,12 @@ header {
     margin: auto;
 }
 
+nav {
+    width: 1020px;
+    text-align: left;
+    margin: auto;
+}
+
 h1 {
     text-align: left;
     font-size: 20pt;
@@ -47,7 +53,7 @@ div.title {
     display: flex;
  }
 
- .imgchange {
+.imgchange {
     width: 50px;
     height: 50px;
     transition: width 2s, height 2s;
@@ -72,6 +78,7 @@ div.title {
 }
         
 .info {
+    width: 1020px;
     column-count: 3;
     column-gap: 50px;
     column-width: 200px;
