@@ -1,0 +1,85 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    width: 1020px;
+    height: 100%;
+    left: 50%;
+    margin: 0px 0px 0px -510px;
+}
+
+nav {
+    text-align: left;
+    display: inline;
+}
+
+h1 {
+    text-align: left;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 20px;
+    text-align: left;
+    animation-duration: 2s;
+    animation-name: mymove;
+}
+
+@keyframes mymove {
+    from {
+        width: 100%;
+        margin-left: 100%;    
+    }
+    to {
+        width: 100%;
+        margin-left: 0%; 
+    }
+}
+
+.imgbox {
+    width: 350px;
+    height: 350px;
+    border: solid 3px gray;
+    margin-right: 5px;
+    padding : 3px;
+    display: flex;
+ }
+
+.imgchange {
+    transition-duration: 2s;
+    transition-property: width, height;
+}
+        
+.imgchange:hover {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    text-align: left;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    width: 50px;
+    height: 20px;
+    font-size: 8px;
+}
+        
+.info {
+    width: 1020px;
+    column-count: 3;
+    column-gap: 50px;
+    column-width: 200px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+}
