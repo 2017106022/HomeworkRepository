@@ -3,114 +3,84 @@
         "code": "DOGE",
         "name": "도지코인",
         "currentKRW": "646",
-        "protocol": "PoW"
+        "Own": "Yes"
     },
     {
         "code": "ETH",
         "name": "이더리움",
         "currentKRW": "4780000",
-        "protocol": "PoW"
+        "Own": "Yes"
     },
     {
         "code": "ETC",
         "name": "이더리움클래식",
         "currentKRW": "115900",
-        "protocol": "PoW"
+        "Own": "Yes"
     },
     {
         "code": "EOS",
         "name": "이오스",
         "currentKRW": "13888",
-        "protocol": "DPo8"
+        "Own": "Yes"
     },
     {
         "code": "XRP",
         "name": "리플",
         "currentKRW": "1715",
-        "protocol": "ripple protocol"
+        "Own": "Yes"
     },
     {
         "code": "ADA",
         "name": "에이다",
         "currentKRW": "2315",
-        "protocol": "Ouroboros"
+        "Own": "Yes"
     },
     {
         "code": "BTC",
         "name": "비트코인",
         "currentKRW": "62187000",
-        "protocol": "PoW"
+        "Own": "Yes"
     },
     {
         "code": "BCH",
         "name": "비트코인캐시",
         "currentKRW": "1628000",
-        "protocol": "PoW"
-    },
-    {
-        "code": "HBAR",
-        "name": "헤데라해시그래프",
-        "currentKRW": "423",
-        "protocol": "HashGraph"
-    },
-    {
-        "code": "QTUM",
-        "name": "퀀텀",
-        "currentKRW": "26890",
-        "protocol": "PoS"
+        "Own": "Yes"
     },
     {
         "code": "BTT",
         "name": "비트토렌트",
         "currentKRW": "7.59",
-        "protocol": "BTFS"
+        "Own": "Yes"
     },
     {
         "code": "DOT",
         "name": "폴카닷",
         "currentKRW": "50470",
-        "protocol": "MAPProtocol"
-    },
-    {
-        "code": "XLM",
-        "name": "스텔라루멘",
-        "currentKRW": "860",
-        "protocol": "Stella"
+        "Own": "Yes"
     },
     {
         "code": "SSX",
         "name": "썸씽",
         "currentKRW": "124",
-        "protocol": "Something"
+        "Own": "Yes"
     },
     {
         "code": "VET",
         "name": "비체인",
         "currentKRW": "232",
-        "protocol": "PoA"
-    },
-    {
-        "code": "NEO",
-        "name": "네오",
-        "currentKRW": "124450",
-        "protocol": "DBFT"
+        "Own": "Yes"
     },
     {
         "code": "LTC",
         "name": "라이트코인",
         "currentKRW": "400100",
-        "protocol": "PoW"
+        "Own": "Yes"
     },
     {
         "code": "BTG",
         "name": "비트코인골드",
         "currentKRW": "125850",
-        "protocol": "Equihash"
-    },
-    {
-        "code": "IQ",
-        "name": "에브리피디아",
-        "currentKRW": "23.40",
-        "protocol": "EOS"
+        "Own": "Yes"
     }
 ]
