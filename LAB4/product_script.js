@@ -12,32 +12,25 @@ function initialize(products) {
     const searchTerm = document.querySelector('#searchTerm');
     const searchBtn = document.querySelector('button');
     const main = document.querySelector('main');
-
-    // record of the last category and search that has been entered
     let lastCategory = category.value;
-    // null
     let lastSearch = '';
     let categoryGroup = [];
     let finalGroup = [];
     finalGroup = products;
-    // all products displayed initially
     updateDisplay();
 
     searchBtn.onclick = selectCategory;
 
     function selectCategory(e) {
         e.preventDefault();
-        // clear
         categoryGroup = [];
         finalGroup = [];
 
         if(category.value === lastCategory && searchTerm.value.trim() === lastSearch) {
         return;
         } else {
-            // update
             lastCategory = category.value;
             lastSearch = searchTerm.value.trim();
-            // set categoryGroup to the entire JSON object
             if(category.value === 'All') {
                 categoryGroup = products;
                 selectProducts();
@@ -54,7 +47,6 @@ function initialize(products) {
     }
 
     function selectProducts() {
-        // if no search term has been entered
         if(searchTerm.value.trim() === '') {
         finalGroup = categoryGroup;
         updateDisplay();
@@ -69,18 +61,14 @@ function initialize(products) {
         }
     }
 
-    // update the display with new sets of products
     function updateDisplay() {
-        // remove the previous contents
         while (main.firstChild) {
             main.removeChild(main.firstChild);
         }
-        // when no products match the search term
         if(finalGroup.length === 0) {
             const para = document.createElement('p');
             para.textContent = 'No results to display!';
             main.appendChild(para);
-        // pass its product object to fetchBlob()
         } else {
             for(let i = 0; i < finalGroup.length; i++) {
                 fetchBlob(finalGroup[i]);
@@ -89,13 +77,10 @@ function initialize(products) {
     }
 
     function fetchBlob(product) {
-    // construct the URL path to the image file from the product.image property
         let url = 'images/' + product.image;
-    // Fetch image, convert response to a blob
         fetch(url).then(function(response) {
             return response.blob();
         }).then(function(blob) {
-            // Convert the blob to an object URL 
             let objectURL = URL.createObjectURL(blob);
             showProduct(objectURL, product);
         });

@@ -2,85 +2,85 @@
     {
         "code": "DOGE",
         "name": "도지코인",
-        "currentKRW": "646",
-        "Own": "Yes"
+        "currentKRW": "561",
+        "Own": "No"
     },
     {
         "code": "ETH",
         "name": "이더리움",
-        "currentKRW": "4780000",
+        "currentKRW": "3780000",
         "Own": "Yes"
     },
     {
         "code": "ETC",
         "name": "이더리움클래식",
-        "currentKRW": "115900",
-        "Own": "Yes"
+        "currentKRW": "100560",
+        "Own": "No"
     },
     {
         "code": "EOS",
         "name": "이오스",
-        "currentKRW": "13888",
-        "Own": "Yes"
+        "currentKRW": "12988",
+        "Own": "No"
     },
     {
         "code": "XRP",
         "name": "리플",
-        "currentKRW": "1715",
-        "Own": "Yes"
+        "currentKRW": "1615",
+        "Own": "No"
     },
     {
         "code": "ADA",
         "name": "에이다",
-        "currentKRW": "2315",
-        "Own": "Yes"
+        "currentKRW": "2356",
+        "Own": "No"
     },
     {
         "code": "BTC",
         "name": "비트코인",
-        "currentKRW": "62187000",
+        "currentKRW": "53649000",
         "Own": "Yes"
     },
     {
         "code": "BCH",
         "name": "비트코인캐시",
-        "currentKRW": "1628000",
-        "Own": "Yes"
+        "currentKRW": "1498500",
+        "Own": "No"
     },
     {
         "code": "BTT",
         "name": "비트토렌트",
-        "currentKRW": "7.59",
+        "currentKRW": "6.59",
         "Own": "Yes"
     },
     {
         "code": "DOT",
         "name": "폴카닷",
-        "currentKRW": "50470",
+        "currentKRW": "47470",
         "Own": "Yes"
     },
     {
         "code": "SSX",
         "name": "썸씽",
-        "currentKRW": "124",
+        "currentKRW": "106",
         "Own": "Yes"
     },
     {
         "code": "VET",
         "name": "비체인",
         "currentKRW": "232",
-        "Own": "Yes"
+        "Own": "No"
     },
     {
         "code": "LTC",
         "name": "라이트코인",
-        "currentKRW": "400100",
+        "currentKRW": "389100",
         "Own": "Yes"
     },
     {
         "code": "BTG",
         "name": "비트코인골드",
-        "currentKRW": "125850",
-        "Own": "Yes"
+        "currentKRW": "111850",
+        "Own": "No"
     }
 ]
